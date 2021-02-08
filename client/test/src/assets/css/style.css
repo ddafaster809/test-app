@@ -1,0 +1,83 @@
+#menu {
+  color: black !important;
+}
+
+#logoImage {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.leftAlign {
+  text-align: left !important;
+}
+
+.floatRight {
+  float: right;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+body {
+  background-color: rgb(231, 231, 231);  
+}
+
+.menu {
+  background-color: #f7f7f7 !important;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;  
+  text-align: center;
+  
+}
+
+.pushDown{
+  height:100% !important;
+  position: absolute;
+}
+
+
+.bold {
+  font-weight: bold;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.relative{
+  position: relative !important;
+}
+
+.center{
+  text-align: center;
+}
+
+.title{
+  font: 15px;
+
+
+}
+
+.mainContainer{
+  margin-top: 150px;
+  max-height: 300px !important ;
+}
+
+.red{
+
+    color: red;
+}
+
+.profileImage{
+
+  max-width: 450px ;
+  max-height: 450px !important;
+}
