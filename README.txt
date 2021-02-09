@@ -64,28 +64,34 @@ On both cases it could be any literal string you could think of, better make it 
 
 1- Config Variables:
 
-There's a config.js.example file in the folder client/test/src/ Make a copy in the same file path and name it config.js
+There's a config.js.example file inside client/test/src/ Make a copy in the same file path and name it config.js
 
 It exports an object with 1 property.
 
-endPointUri: "" //Endpoint URL for the Apollo Client Helper 
+endPointUri: "" // Endpoint URL for the Apollo Client Helper 
 
 When running Apollo server locally it generally runs at : http://localhost:4000/
 
 ------------------------
 StageWood Test Application Running Process
 -------------------------
+It is recommended to execute npm install to install all aplications dependency.
 
-All dependencies are already installed in both server and client,but you could do a npm install or yarn install just in case.
-
--To run server position yourself in server root folder
+-Running Server
+Open a command line 
+go to  server root folder
 cd server
+run npm install || yarn install to install any missing dependencies
 run   node index.js in  CLI
 Once it is running it will ouput: Server ready at <URL>;
 
--To run client app go to root folder client/test/
+
+
+-Running Client
+From a different command line  go to client's app root folder client/test/
 cd client/test/
 
+run npm install || yarn install to install any missing dependencies
 Run npm start || yarn start 
 
 It might open the app on browser automatically. 
