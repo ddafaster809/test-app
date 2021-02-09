@@ -1,5 +1,8 @@
 
 server/.env
+server/.env.example
 server/assets/profile/*.jpg
 server/config.js
+server/config.js.example
 client/test/src/config.js
+client/test/src/config.js.example
