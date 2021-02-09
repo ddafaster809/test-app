@@ -1,5 +1,0 @@
-module.exports = {
-    SALT: "", //String for Adding Salt to Password Hashing
-    TOKEN_KEY: "" // String for generating encryted jwt 
-
-}

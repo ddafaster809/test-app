@@ -34,7 +34,7 @@ An .env.example file is provided.
 
 The main and only env variable the server app needs is the database URL for Prisma ORM database connection:
 
-DATABASE_URL
+DATABASE_URL String
 
 It generally consists of the following components:
 
