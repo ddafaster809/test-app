@@ -30,7 +30,7 @@ The database structure is a really simple one it only contains:
 	
 2. Environmental variables
 
-An .env.example file is provided.
+Make a copy of server/.env.example file  and name it .env
 
 The main and only env variable the server app needs is the database URL for Prisma ORM database connection:
 
@@ -50,7 +50,7 @@ It is not necessary to introspect the database as there’s a defined Prisma sch
 
 3- Config Variables:
 
-There's a config.js.example file in the root folder server
+Make a copy of server/config.js.example and name it config.js  
 
 It exports an object with 2 properties 
 SALT: String  			//String for Adding Salt to Password Hashing
@@ -64,7 +64,7 @@ On both cases it could be any literal string you could think of, better make it 
 
 1- Config Variables:
 
-There's a config.js.example file in the folder client/test/src/
+There's a config.js.example file in the folder client/test/src/ Make a copy in the same file path and name it config.js
 
 It exports an object with 1 property.
 
