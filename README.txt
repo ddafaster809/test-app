@@ -64,7 +64,7 @@ On both cases it could be any literal string you could think of, better make it 
 
 1- Config Variables:
 
-There's a config.js.example file in the root folder client/test/
+There's a config.js.example file in the folder client/test/src/
 
 It exports an object with 1 property.
 
@@ -81,7 +81,7 @@ All dependencies are already installed in both server and client,but you could d
 -To run server position yourself in server root folder
 cd server
 run   node index.js in  CLI
-once it is running it will ouput: Server ready at <URL>;
+Once it is running it will ouput: Server ready at <URL>;
 
 -To run client app go to root folder client/test/
 cd client/test/

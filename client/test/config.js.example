@@ -1,3 +1,0 @@
-export default {
-    endPointUri: "" //Endpoint URL for the Apollo Client Helper 
-}

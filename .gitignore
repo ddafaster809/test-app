@@ -2,4 +2,4 @@
 server/.env
 server/assets/profile/*.jpg
 server/config.js
-client/test/config.js
+client/test/src/config.js
